@@ -140,6 +140,7 @@ class AuroraSQLite:
                 data['macrf'],
                 data['ts'],
             ))
+            self.database.commit()
         except Exception as e:
             log.error("Exception handling database write for panel info: %s" % str(e))
 
