@@ -175,6 +175,7 @@ class AuroraSQLite:
                         xml_string = fh.read()
                     except Exception as e:
                         log.warning("Exception on url open: %s" % str(e))
+                        continue
                 finally:
                     fh.close() 
 
