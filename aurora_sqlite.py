@@ -122,7 +122,7 @@ class AuroraSQLite:
                 data['mcualarm'],
                 data['mcuwarning'],
             ))
-            log.info("Panel %s - Power: %.2fW; Energy: %.0fWh; "
+            log.debug("Panel %s - Power: %.2fW; Energy: %.0fWh; "
                 "Voltage In: %.1fVDC; Voltage Out: %.0fVAC; "
                 "DSP Temp: %.0fC; MOSFET Temp: %.0fC" % (
                     data['macrf'],
