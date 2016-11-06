@@ -167,8 +167,9 @@ class AuroraSQLite:
 
                 try:
                     try:
+                        # 'http://solar.pine.vumnoo.org/plant.xml',
                         fh = urllib2.urlopen(
-                            'http://solar.pine.vumnoo.org/plant.xml',
+                            'http://10.10.1.13/plant.xml',
                             None,
                             self._SECONDS * 0.75
                         )
